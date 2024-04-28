@@ -1,0 +1,22 @@
+[
+    {
+        "id": 4,
+        "cardName": "Heal",
+        "description": "Heal 30 HP",
+        "damage": 0,
+        "accuracy": 80,
+        "healing": 30,
+        "target": "player",
+        "art": "Assets/Sprites/Card_Heal"
+    },
+    {
+        "id": 5,
+        "cardName": "Restore",
+        "description": "Heal, but more",
+        "damage": 0,
+        "accuracy": 20,
+        "healing": 100,
+        "target": "enemy",
+        "art": "Assets/Sprites/Card_Restore"
+    }
+]
