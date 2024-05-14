@@ -1,9 +1,11 @@
 "use strict"
 import express from 'express';
+import fs from 'fs';
 
 const app = express();
-const port = 3002;
+const port = 3000;
 app.use(express.json());
+app.use(express.static('public'));
 
 let cards_list = [
     {
@@ -73,6 +75,16 @@ app.get('/card/:id', (req, res) => {
         res.status(200).send('Card not found');
     }
 });
+//html shid
+app.get("/", (req, res) => {
+    const file = fs.readFileSync('public/html/htmldoc.html', "utf8");
+    res.status(200).send(file);
+})
+
+app.get("/", (req, res) => {
+    const file = fs.readFileSync('public/html/htmldoc.html', "utf8");
+    res.status(200).send(file);
+})
 
 //Debe de recibir un json con las cartas nuevas que se van a 
 //agregar a la lista. Verifica que las cartas tengan todos los 
