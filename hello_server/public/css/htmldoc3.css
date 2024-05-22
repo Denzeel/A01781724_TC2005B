@@ -1,0 +1,47 @@
+h1 {
+    color: blue;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: 2px solid black;
+}
+
+a {
+    margin: 15px;
+    padding: 10px;
+}
+
+#css_cheat_sheet {
+    background-color: #f2c06f;
+    margin: 20px;
+    padding: 10px;
+    color: #0095ff;
+    border-radius: 10px;
+}
+
+html {
+    background-color: pink;
+}
+
+body {
+    background-color: #ff00c3;
+}
+
+.div_style {
+    margin: 20px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+#button_styles {
+    background-color: #f2ff00;
+}
+
+#button_styles button {
+    font-size: 2em;
+    border-radius: 10px;
+    background-color: #00ff00;
+}

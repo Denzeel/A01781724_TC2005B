@@ -81,11 +81,6 @@ app.get("/", (req, res) => {
     res.status(200).send(file);
 })
 
-app.get("/", (req, res) => {
-    const file = fs.readFileSync('public/html/htmldoc.html', "utf8");
-    res.status(200).send(file);
-})
-
 //Debe de recibir un json con las cartas nuevas que se van a 
 //agregar a la lista. Verifica que las cartas tengan todos los 
 //atributos antes de agregarlas a la lista. Verifica que no exista 

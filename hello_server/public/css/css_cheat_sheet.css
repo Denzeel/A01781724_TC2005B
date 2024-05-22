@@ -1,0 +1,109 @@
+.property {
+    margin-bottom: 20px;
+}
+
+.property h2 {
+    margin-bottom: 10px;
+}
+
+.sample {
+    padding: 10px;
+    margin-top: 5px;
+}
+
+/* Estilos específicos para cada propiedad */
+#border{
+    border: 2px solid #ff0000;
+    width: 100px;
+    height: 50px;
+}
+
+#border-individual{
+    border-left: 4px dashed #00ff00;
+    border-right: 2px dashed #000;
+    border-top: 2px dashed #ff00ff;
+    border-bottom: 2px dashed #ff0000;
+    width: 110px;
+    height: 130px;
+}
+
+#border-radius{
+    border: 2px solid #000;
+    border-radius: 10px;
+    width: 100px;
+    height: 60px;
+}
+
+#background-image{
+    background-image: url('../images/huron.jpg');
+    
+    width: 200px;
+    height: 200px;
+}
+
+#color{
+    color: red;
+}
+
+#font{
+    font: 16px Arial, sans-serif;
+    font-weight: normal;
+    line-height: 1.5;
+    color: #333;
+}
+
+#font-family{
+    font-family: 'Arial', serif;
+}
+
+#font-style-weight{
+    font-style: italic;
+    font-weight: bold;
+}
+
+#width-height {
+    width: 150px;
+    height: 100px;
+    background-color: magenta;
+}
+
+#list-style{
+    list-style: square inside;
+}
+
+#margin{
+    margin: 20px;
+    background-color: lightgray;
+}
+
+#padding{
+    padding: 20px;
+    background-color: red;
+}
+
+#overflow{
+    width: 200px;
+    height: 100px;
+    overflow: scroll;
+    border: 1px solid #000;
+}
+
+#display{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+}
+
+#position{
+    position: relative;
+    left: 50px;
+    top: 30px;
+}
+
+#filter{
+    filter: blur(7px);
+    background-image: url('../images/huron.jpg');
+    width: 200px;
+    height: 200px;
+}
